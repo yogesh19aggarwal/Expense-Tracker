@@ -1,0 +1,42 @@
+.week__expense {
+  background: rgb(2, 0, 36);
+  min-height: 20svh;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 11%,
+    rgba(164, 6, 114, 1) 72%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.week__expenseHeading {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.week__expAmount {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.week__dash {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.week__dashItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.week__dashItem > span {
+  color: white;
+  font-weight: bold;
+}

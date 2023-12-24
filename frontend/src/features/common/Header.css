@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid lightgray;
+  flex-wrap: wrap;
+  padding-block: 0.5rem;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.header__auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  text-transform: capitalize;
+}
+
+.header__logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.header__logo > h1 {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+.header__banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}

@@ -1,0 +1,13 @@
+.dash__transHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.dash__transHead > a {
+  font-weight: bold;
+  text-decoration: dotted;
+}
+.dash__transHead > h3 {
+  font-weight: 600;
+}

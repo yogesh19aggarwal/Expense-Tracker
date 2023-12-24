@@ -1,0 +1,12 @@
+.btn {
+  font-size: larger;
+  padding: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.btn__secondary {
+  background-color: var(--secondary-color);
+  color: white;
+  outline: 0;
+  border: 0;
+}

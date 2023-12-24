@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --secondary-color: #464bd8;
+  --primary-color: #f5f3f3;
+  --border-color: rgba(145, 143, 143, 0.75);
+}
+body {
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}

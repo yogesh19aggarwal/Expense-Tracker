@@ -1,0 +1,9 @@
+.auth__nav{
+    text-align: center;
+    font-weight: 500;
+    color: purple;   
+}
+.auth__nav:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

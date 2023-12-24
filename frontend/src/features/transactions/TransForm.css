@@ -1,0 +1,20 @@
+.trans__form {
+  display: grid;
+  gap: 0.8rem;
+}
+.trans__form > input {
+  border: 1px solid lightgrey;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+.trans__form > input:focus,
+.trans__form > textarea:focus {
+  border: 2px solid purple;
+}
+.trans__form > textarea {
+  border: 1px solid lightgrey;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}

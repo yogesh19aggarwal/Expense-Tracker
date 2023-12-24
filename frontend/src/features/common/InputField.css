@@ -1,0 +1,12 @@
+.input__control{
+    display: grid;
+    gap: 10px;
+}
+.input__control > span{
+    font-size: large;
+}
+.input__control > input{
+    width: 100%;
+    padding: 0.2rem;
+    font-size: large;
+}

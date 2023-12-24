@@ -1,0 +1,11 @@
+.dash__name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+}
+.dash__transList {
+  gap: 0.8rem;
+  display: grid;
+  list-style: none;
+  margin-top: 1rem;
+}
